@@ -1,0 +1,43 @@
+  container {
+    width: 100%;
+    border: 18px solid red;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: #41b0c6;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: center;
+    max-width: 100%;
+    text-align: left;
+
+
+}
+
+nav ul {
+    float: left;
+    max-width: 70%;
+    list-style-type: none;
+
+}
+
+nav ul a {
+  max-width: 70%;
+  text-decoration: black;
+}
+
+article {
+    margin-left: 0px;
+    border-left: 1px solid black;
+    padding: 4em;
+    overflow: hidden;
+    background-image: url("NEpic.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
